@@ -122,7 +122,7 @@ export default function LoginForm() {
                 <Form.Item name="remember" valuePropName="checked" noStyle>
                   <Checkbox>Remember me</Checkbox>
                 </Form.Item>
-                <a style={styles.forgotPassword} href="">
+                <a style={styles.forgotPassword} href="/#">
                   Forgot password?
                 </a>
               </Form.Item>
@@ -132,7 +132,7 @@ export default function LoginForm() {
                 </Button>
                 <div style={styles.footer}>
                   <Text style={styles.text}>Don't have an account?</Text>{" "}
-                  <Link href="">Sign up now</Link>
+                  <Link href="/#">Sign up now</Link>
                 </div>
               </Form.Item>
             </Form>

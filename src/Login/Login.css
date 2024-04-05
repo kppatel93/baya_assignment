@@ -1,0 +1,26 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  width: 100%;
+  background-color: #f7f760;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.logout-btn {
+  cursor: pointer;
+  margin: 0 10px 0 20px;
+  padding: 8px;
+  background-color: transparent;
+  font-size: 14px;
+  border: none;
+  font-weight: 600;
+}

@@ -1,0 +1,66 @@
+.comments-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment-section {
+    width: calc(100% - 15%);
+    margin: 6px;
+    padding: 12px 24px;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    background-color: #F5F3F3;
+}
+
+.edit-icon {
+    cursor: pointer;
+    color: #3d2ae6;
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.top-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-name {
+    color: #f86a72;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bottom-section {
+    float: right;
+    margin-right: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+
+.save-btn {
+    color: green;
+    margin-top: 8px;
+    float: right;
+}
+
+.cancel-btn {
+    color: red;
+    margin-top: 8px;
+    float: right;
+}
